@@ -1,0 +1,23 @@
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# zsh
+.zsh_history
+.zsh_sessions/
+.zcompdump*
+
+# VS Code
+code/History/
+code/globalStorage/
+code/workspaceStorage/
+code/sync/
+code/mcp.json
+
+# その他
+.cache/
+.Trash/
+npm-debug.log
+

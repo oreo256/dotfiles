@@ -1,0 +1,93 @@
+  {
+
+    "security.workspace.trust.enabled": false,
+
+    "workbench.startupEditor": "none",
+    
+    "latex-workshop.latex.recipe.default": "lastUsed",
+
+    "latex-workshop.latex.recipes": [
+      {
+        "name": "platex and dvipdfmx",
+        "tools": ["platex", "platex", "dvipdfmx"]
+      }, {
+        "name": "uplatex and dvipdfmx",
+        "tools": ["uplatex", "uplatex", "dvipdfmx"]
+      }
+    ],
+    
+    "latex-workshop.latex.tools": [
+      {
+        "name": "platex",
+        "command": "platex",
+        "args": [
+          "-interaction=nonstopmode",
+          "-file-line-error",
+          "%DOC%"
+        ]
+      },
+      {
+        "name": "uplatex",
+        "command": "uplatex",
+        "args": [
+          "-interaction=nonstopmode",
+          "-file-line-error",
+          "%DOC%"
+        ]
+      },
+      {
+        "name": "dvipdfmx",
+        "command": "dvipdfmx",
+        "args": ["%DOCFILE%.dvi"]
+      }
+    ],
+
+    "files.autoSave": "afterDelay",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.empty.hint": "hidden",
+    "terminal.integrated.shellArgs.osx": [
+      "-l"
+    ],
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.autoClosingDelete": "always",
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.colorTheme": "Ariake Dark",
+    "workbench.activityBar.location": "top",
+    "github.copilot.enable": {
+      "*": false,
+      "plaintext": false,
+      "markdown": false,
+      "scminput": false,
+      "c": false
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features",
+      "editor.tabSize": 2
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
+    },
+    "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescript]": {
+      "editor.tabSize": 2,
+      "editor.insertSpaces": true,
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[yaml]": {
+      "editor.insertSpaces": true,
+      "editor.tabSize": 2
+    },
+    "explorer.confirmDelete": false,
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+  }
